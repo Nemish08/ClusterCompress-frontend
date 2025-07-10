@@ -6,8 +6,8 @@ import ResultsDisplay from './components/ResultsDisplay';
 import Footer from './components/Footer';
 import Spinner from './components/Spinner';
 import { compressImageAllAPI } from './api/compressorAPI';
-import dotenv from 'dotenv'
-dotenv.config()
+// import dotenv from 'dotenv'
+// dotenv.config()
 function App() {
   const [originalFile, setOriginalFile] = useState(null); // The actual file object
   const [originalImageURL, setOriginalImageURL] = useState(null); // The URL for display
