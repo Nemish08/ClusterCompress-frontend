@@ -34,6 +34,7 @@ const ResultsDisplay = ({ result, originalImageURL }) => {
                  <ResultCard 
                     title="DBSCAN"
                     color = {result.kmeans.num_colors}
+                    
                     data={result.dbscan}
                     originalSize={result.original_size}
                     description={descriptions.dbscan}

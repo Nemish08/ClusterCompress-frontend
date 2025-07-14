@@ -10,7 +10,7 @@ const Header = () => {
           <h1 className="text-xl font-bold text-white">ClusterCompress</h1>
         </div>
         <a 
-          href="https://github.com/your-username" // CHANGE THIS
+          href="https://github.com/Nemish08" // CHANGE THIS
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-white transition-colors duration-300"
